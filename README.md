@@ -20,7 +20,7 @@ I am a Frontend Engineer with 7+ years of experience building scalable and high-
 ### Frontend
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js)
+![Next.js](https://img.shields.io/badge/Next.js-007ACC?style=for-the-badge&logo=oColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
 
@@ -28,7 +28,7 @@ I am a Frontend Engineer with 7+ years of experience building scalable and high-
 
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux)
 ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge)
+![Zustand](https://img.shields.io/badge/Zustand-FF9800?styledge&logoColor=white)
 
 ### Testing
 
