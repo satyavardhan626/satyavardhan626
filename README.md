@@ -36,11 +36,14 @@ I am a Frontend Engineer with 7+ years of experience building scalable and high-
 ![React Testing Library](https://img.shields.io/badge/React_Testing-the-badge&logo=testinglibrary&logoColor=white)
 
 ### Styling
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=[Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sColor=white
-
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=fore&logo=html5&logoColor=white
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=csslor=white
+
+![Sass](https://img.sh/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwinde=for-the-badge&logo=tailwindcss&logoColor=white
 ``
 
 ---
