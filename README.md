@@ -10,7 +10,7 @@ I am a Frontend Engineer with 7+ years of experience building scalable and high-
 - 👯 Open to collaborating on Open Source Projects
 - 📫 Reach me at: satyavardhan@example.com
 
----
+----
 
 ## 🌐 Connect With Me
 
