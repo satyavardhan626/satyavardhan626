@@ -27,13 +27,13 @@ I am a Frontend Engineer with 7+ years of experience building scalable and high-
 ### State Management
 
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux)
-![Redux Toolkit](https://img.shields.io/badge/Redux?style=for-the-badge
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white
 ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge)
 
 ### Testing
 
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest)
-![RTL](https://img.shields.io/badge/React%20Testing%20Library-E33332?or-the-badge
+![React Testing Library](https://img.shields.io/badge/React_Testing-the-badge&logo=testinglibrary&logoColor=white
 
 ### Styling
 
