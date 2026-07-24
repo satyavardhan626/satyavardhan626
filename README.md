@@ -113,56 +113,27 @@ const satyavardhan = {
 </div>
 
 ---
-
 <div align="center">
-
+ 
 ## 📊 DEVELOPER CONTROL CENTER
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Satyavardhan626&show_icons=true&theme=tokyonight&hide_border=true" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satyavardhan626&layout=compact&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Satyavardhan626&theme=tokyonight&hide_border=true" />
-
+ 
+<img src="https://streak-stats.demolab.com?user=Satyavardhan626&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+ 
 </div>
-
+ 
 ---
-
-<div align="center">
-
-# 🎮 CONTRIBUTION ARCADE
-
-### 🐍 Watch my contributions come alive...
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Satyavardhan626/Satyavardhan626/output/github-contribution-grid-snake-dark.svg"
-  >
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Satyavardhan626/Satyavardhan626/output/github-contribution-grid-snake.svg"
-  >
-  <img
-    alt="Satyavardhan GitHub Contribution Snake"
-    src="https://raw.githubusercontent.com/Satyavardhan626/Satyavardhan626/output/github-contribution-grid-snake.svg"
-  >
-</picture>
-
-</div>
-
----
+ 
 <div align="center">
  
 ## 🎮 CONTRIBUTION ARCADE
  
 ### 🐍 Watch my contributions come alive...
  
-<img src="https://raw.githubusercontent.com/satyavardhan626/satyavardhan626/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+![GitHub Snake](https://raw.githubusercontent.com/Satyavardhan626/Satyavardhan626/output/github-contribution-grid-snake.svg)
  
 </div>
+ 
+---
  
 <div align="center">
 
