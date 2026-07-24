@@ -12,7 +12,7 @@
 
 ---
 
-## 🧑‍💻 `whoami`
+## 🧑‍💻 `who am i`
 
 ```javascript
 const satyavardhan = {
