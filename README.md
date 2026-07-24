@@ -15,23 +15,25 @@ I am a Frontend Engineer with 7+ years of experience building scalable and high-
 ## 🌐 Connect With Me
 
 [LinkedIn](https://linkedin.com/in/yourprofileio](https://yourportfolio.comailto:satyavardhan@example� Tech Stack
+## 💻 Tech Stack
 
 ### Frontend
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logoNextJS](https://img.shields.io/badge/Next.js-000000?styleadge&logo=next.js
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?badge&logo=typescript
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=foro=javascript
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
 
 ### State Management
 
-https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux
-![Redux Toolkit](https://img.ReduxToolkit-764ABC?style=for-the-badge
-![Zustand](https://img.shields.io/badge/Zustand-000000the-badge
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux)
+![Redux Toolkit](https://img.shields.io/badge/Redux?style=for-the-badge
+![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge)
 
 ### Testing
 
-![Jest](https://img.shields.io/badge/Jest-C21325or-the-badge&logo=jest
-![RTL](https://img.sho/badge/ReactTestingLibrary-E33332?style=for-the-badge
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest)
+![RTL](https://img.shields.io/badge/React%20Testing%20Library-E33332?or-the-badge
 
 ### Styling
 
