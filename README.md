@@ -18,7 +18,19 @@
 ║    STATUS      →  🟢 BUILDING THE WEB                ║
 ║                                                      ║
 ╚══════════════════════════════════════════════════════╝
+
+
 ```
+
+<div align="center">
+
+## 🌐 FRONTEND SKILL ORBIT
+
+<img
+  src="./assets/skill-orbit.svg"
+  width="100%"
+  alt="Satyavardhan Frontend Skill Orbit"
+/>
 
 ### `CODE` → `BUILD` → `LEARN` → `GROW` 🚀
 
@@ -47,16 +59,6 @@
 </div>
 
 ---
-
-<div align="center">
-
-## 🌐 FRONTEND SKILL ORBIT
-
-<img
-  src="./assets/skill-orbit.svg"
-  width="100%"
-  alt="Satyavardhan Frontend Skill Orbit"
-/>
 
 ### ⚛️ React • 🟨 JavaScript • 🔷 TypeScript • ▲ Next.js • 🟢 Node.js
 
