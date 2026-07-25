@@ -1,0 +1,324 @@
+<svg width="850" height="420" viewBox="0 0 850 420"
+     xmlns="http://www.w3.org/2000/svg">
+
+<style>
+    .title {
+        font: bold 22px monospace;
+        fill: #58a6ff;
+    }
+
+    .center-title {
+        font: bold 22px monospace;
+        fill: #ffffff;
+    }
+
+    .center-sub {
+        font: 14px monospace;
+        fill: #8b949e;
+    }
+
+    .skill {
+        font: bold 15px monospace;
+        fill: #ffffff;
+    }
+
+    .orbit {
+        fill: none;
+        stroke: #30363d;
+        stroke-width: 2;
+        stroke-dasharray: 7 7;
+    }
+
+    .node {
+        fill: #161b22;
+        stroke: #58a6ff;
+        stroke-width: 2;
+    }
+
+    .pulse {
+        animation: pulse 2s ease-in-out infinite;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    .pulse2 {
+        animation: pulse 2s ease-in-out .5s infinite;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    .pulse3 {
+        animation: pulse 2s ease-in-out 1s infinite;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+
+    @keyframes pulse {
+        0%, 100% {
+            opacity: .65;
+            transform: scale(.92);
+        }
+
+        50% {
+            opacity: 1;
+            transform: scale(1.08);
+        }
+    }
+
+    .dash {
+        animation: dash 12s linear infinite;
+    }
+
+    @keyframes dash {
+        to {
+            stroke-dashoffset: -150;
+        }
+    }
+
+    .status {
+        animation: blink 1.3s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: .3;
+        }
+    }
+</style>
+
+<rect width="850" height="420" rx="18" fill="#0d1117"/>
+
+<text x="425" y="42" text-anchor="middle" class="title">
+    FRONTEND SKILL ORBIT
+</text>
+
+<!-- Orbit rings -->
+
+<ellipse
+    cx="425"
+    cy="225"
+    rx="310"
+    ry="145"
+    class="orbit dash"
+/>
+
+<ellipse
+    cx="425"
+    cy="225"
+    rx="225"
+    ry="105"
+    class="orbit dash"
+/>
+
+<!-- Centre -->
+
+<circle
+    cx="425"
+    cy="225"
+    r="78"
+    fill="#161b22"
+    stroke="#58a6ff"
+    stroke-width="3"
+/>
+
+<circle
+    cx="425"
+    cy="225"
+    r="68"
+    fill="none"
+    stroke="#30363d"
+/>
+
+<text
+    x="425"
+    y="212"
+    text-anchor="middle"
+    class="center-title">
+    👨‍💻 SATYA
+</text>
+
+<text
+    x="425"
+    y="240"
+    text-anchor="middle"
+    class="center-sub">
+    FRONTEND ENGINEER
+</text>
+
+<text
+    x="425"
+    y="263"
+    text-anchor="middle"
+    class="center-sub">
+    7.5+ YEARS
+</text>
+
+
+<!-- React -->
+
+<g class="pulse">
+
+    <circle
+        cx="425"
+        cy="88"
+        r="43"
+        class="node"
+    />
+
+    <text
+        x="425"
+        y="83"
+        text-anchor="middle"
+        font-size="23">
+        ⚛️
+    </text>
+
+    <text
+        x="425"
+        y="108"
+        text-anchor="middle"
+        class="skill">
+        React
+    </text>
+
+</g>
+
+
+<!-- JavaScript -->
+
+<g class="pulse2">
+
+    <circle
+        cx="170"
+        cy="145"
+        r="43"
+        class="node"
+    />
+
+    <text
+        x="170"
+        y="140"
+        text-anchor="middle"
+        font-size="22">
+        🟨
+    </text>
+
+    <text
+        x="170"
+        y="165"
+        text-anchor="middle"
+        class="skill">
+        JavaScript
+    </text>
+
+</g>
+
+
+<!-- TypeScript -->
+
+<g class="pulse3">
+
+    <circle
+        cx="680"
+        cy="145"
+        r="43"
+        class="node"
+    />
+
+    <text
+        x="680"
+        y="140"
+        text-anchor="middle"
+        font-size="22">
+        🔷
+    </text>
+
+    <text
+        x="680"
+        y="165"
+        text-anchor="middle"
+        class="skill">
+        TypeScript
+    </text>
+
+</g>
+
+
+<!-- Next -->
+
+<g class="pulse">
+
+    <circle
+        cx="170"
+        cy="310"
+        r="43"
+        class="node"
+    />
+
+    <text
+        x="170"
+        y="305"
+        text-anchor="middle"
+        font-size="22">
+        ▲
+    </text>
+
+    <text
+        x="170"
+        y="330"
+        text-anchor="middle"
+        class="skill">
+        Next.js
+    </text>
+
+</g>
+
+
+<!-- Node -->
+
+<g class="pulse2">
+
+    <circle
+        cx="680"
+        cy="310"
+        r="43"
+        class="node"
+    />
+
+    <text
+        x="680"
+        y="305"
+        text-anchor="middle"
+        font-size="22">
+        🟢
+    </text>
+
+    <text
+        x="680"
+        y="330"
+        text-anchor="middle"
+        class="skill">
+        Node.js
+    </text>
+
+</g>
+
+
+<!-- Bottom status -->
+
+<circle
+    cx="348"
+    cy="388"
+    r="6"
+    fill="#3fb950"
+    class="status"
+/>
+
+<text
+    x="365"
+    y="394"
+    class="center-sub">
+    SYSTEM ONLINE • BUILDING THE WEB
+</text>
+
+</svg>
