@@ -38,11 +38,19 @@
 
 ---
 
-## 👨‍💻 About Me
+<div align="center">
 
-⚛️ **React Developer** with **7.5+ years** of frontend experience  
-🚀 Building **scalable & user-friendly web applications**  
-🧠 Exploring **Angular, AngularJS & modern frontend architecture**
+## 🧬 ABOUT ME — DEVELOPER DNA
+
+<img
+  src="./assets/developer-dna.svg"
+  width="100%"
+  alt="Satyavardhan Developer DNA"
+/>
+
+### ⚡ Building scalable experiences • Learning continuously • Growing with every build
+
+</div>
 
 ---
 
