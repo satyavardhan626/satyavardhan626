@@ -1,1 +1,447 @@
-hi
+<svg width="850" height="430" viewBox="0 0 850 430"
+     xmlns="http://www.w3.org/2000/svg">
+
+<style>
+
+  .title {
+    font: bold 22px monospace;
+    fill: #58a6ff;
+  }
+
+  .name {
+    font: bold 21px monospace;
+    fill: #ffffff;
+  }
+
+  .role {
+    font: 14px monospace;
+    fill: #8b949e;
+  }
+
+  .label {
+    font: bold 14px monospace;
+    fill: #ffffff;
+  }
+
+  .small {
+    font: 12px monospace;
+    fill: #8b949e;
+  }
+
+  .path {
+    fill: none;
+    stroke: #30363d;
+    stroke-width: 2;
+    stroke-dasharray: 6 6;
+    animation: flow 8s linear infinite;
+  }
+
+  @keyframes flow {
+    to {
+      stroke-dashoffset: -100;
+    }
+  }
+
+  .node {
+    fill: #161b22;
+    stroke: #58a6ff;
+    stroke-width: 2;
+  }
+
+  .pulse1 {
+    animation: pulse 2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  .pulse2 {
+    animation: pulse 2s ease-in-out .5s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  .pulse3 {
+    animation: pulse 2s ease-in-out 1s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  .pulse4 {
+    animation: pulse 2s ease-in-out 1.5s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes pulse {
+    0%,100% {
+      transform: scale(.94);
+      opacity: .75;
+    }
+
+    50% {
+      transform: scale(1.08);
+      opacity: 1;
+    }
+  }
+
+  .core {
+    animation: corePulse 2s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes corePulse {
+    0%,100% {
+      opacity: .75;
+      transform: scale(.96);
+    }
+
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+  }
+
+  .particle1 {
+    animation: move1 4s linear infinite;
+  }
+
+  @keyframes move1 {
+    0% {
+      transform: translate(0px,0px);
+      opacity: 0;
+    }
+
+    15% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translate(180px,90px);
+      opacity: 0;
+    }
+  }
+
+  .particle2 {
+    animation: move2 4s linear infinite 1s;
+  }
+
+  @keyframes move2 {
+    0% {
+      transform: translate(0px,0px);
+      opacity: 0;
+    }
+
+    15% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translate(-180px,90px);
+      opacity: 0;
+    }
+  }
+
+  .particle3 {
+    animation: move3 4s linear infinite 2s;
+  }
+
+  @keyframes move3 {
+    0% {
+      transform: translate(0px,0px);
+      opacity: 0;
+    }
+
+    15% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translate(180px,-90px);
+      opacity: 0;
+    }
+  }
+
+  .particle4 {
+    animation: move4 4s linear infinite 3s;
+  }
+
+  @keyframes move4 {
+    0% {
+      transform: translate(0px,0px);
+      opacity: 0;
+    }
+
+    15% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translate(-180px,-90px);
+      opacity: 0;
+    }
+  }
+
+  .blink {
+    animation: blink 1.3s ease-in-out infinite;
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: .25;
+    }
+  }
+
+</style>
+
+
+<!-- BACKGROUND -->
+
+<rect width="850" height="430" rx="18" fill="#0d1117"/>
+
+
+<!-- TITLE -->
+
+<text x="425" y="38"
+      text-anchor="middle"
+      class="title">
+  DEVELOPER DNA
+</text>
+
+<text x="425" y="62"
+      text-anchor="middle"
+      class="small">
+  WHAT POWERS MY CODE
+</text>
+
+
+<!-- CONNECTION PATHS -->
+
+<path d="M425 210 L245 125"
+      class="path"/>
+
+<path d="M425 210 L605 125"
+      class="path"/>
+
+<path d="M425 210 L245 305"
+      class="path"/>
+
+<path d="M425 210 L605 305"
+      class="path"/>
+
+
+<!-- MOVING DATA PARTICLES -->
+
+<circle cx="245" cy="125" r="6"
+        fill="#58a6ff"
+        class="particle1"/>
+
+<circle cx="605" cy="125" r="6"
+        fill="#3fb950"
+        class="particle2"/>
+
+<circle cx="245" cy="305" r="6"
+        fill="#d2a8ff"
+        class="particle3"/>
+
+<circle cx="605" cy="305" r="6"
+        fill="#f0883e"
+        class="particle4"/>
+
+
+<!-- CENTER CORE -->
+
+<g class="core">
+
+  <circle cx="425"
+          cy="210"
+          r="82"
+          fill="#161b22"
+          stroke="#58a6ff"
+          stroke-width="3"/>
+
+  <circle cx="425"
+          cy="210"
+          r="70"
+          fill="none"
+          stroke="#30363d"
+          stroke-width="1"/>
+
+  <text x="425"
+        y="185"
+        text-anchor="middle"
+        font-size="27">
+    👨‍💻
+  </text>
+
+  <text x="425"
+        y="215"
+        text-anchor="middle"
+        class="name">
+    SATYA
+  </text>
+
+  <text x="425"
+        y="239"
+        text-anchor="middle"
+        class="role">
+    FRONTEND ENGINEER
+  </text>
+
+  <text x="425"
+        y="260"
+        text-anchor="middle"
+        class="role">
+    7.5+ YEARS
+  </text>
+
+</g>
+
+
+<!-- REACT NODE -->
+
+<g class="pulse1">
+
+  <circle cx="225"
+          cy="115"
+          r="54"
+          class="node"/>
+
+  <text x="225"
+        y="105"
+        text-anchor="middle"
+        font-size="24">
+    ⚛️
+  </text>
+
+  <text x="225"
+        y="132"
+        text-anchor="middle"
+        class="label">
+    REACT
+  </text>
+
+  <text x="225"
+        y="150"
+        text-anchor="middle"
+        class="small">
+    BUILD
+  </text>
+
+</g>
+
+
+<!-- UI NODE -->
+
+<g class="pulse2">
+
+  <circle cx="625"
+          cy="115"
+          r="54"
+          class="node"/>
+
+  <text x="625"
+        y="105"
+        text-anchor="middle"
+        font-size="24">
+    🎨
+  </text>
+
+  <text x="625"
+        y="132"
+        text-anchor="middle"
+        class="label">
+    UI
+  </text>
+
+  <text x="625"
+        y="150"
+        text-anchor="middle"
+        class="small">
+    EXPERIENCE
+  </text>
+
+</g>
+
+
+<!-- SCALABILITY NODE -->
+
+<g class="pulse3">
+
+  <circle cx="225"
+          cy="315"
+          r="54"
+          class="node"/>
+
+  <text x="225"
+        y="305"
+        text-anchor="middle"
+        font-size="24">
+    🚀
+  </text>
+
+  <text x="225"
+        y="332"
+        text-anchor="middle"
+        class="label">
+    SCALE
+  </text>
+
+  <text x="225"
+        y="350"
+        text-anchor="middle"
+        class="small">
+    ENGINEER
+  </text>
+
+</g>
+
+
+<!-- LEARNING NODE -->
+
+<g class="pulse4">
+
+  <circle cx="625"
+          cy="315"
+          r="54"
+          class="node"/>
+
+  <text x="625"
+        y="305"
+        text-anchor="middle"
+        font-size="24">
+    🧠
+  </text>
+
+  <text x="625"
+        y="332"
+        text-anchor="middle"
+        class="label">
+    LEARN
+  </text>
+
+  <text x="625"
+        y="350"
+        text-anchor="middle"
+        class="small">
+    EVOLVE
+  </text>
+
+</g>
+
+
+<!-- BOTTOM STATUS -->
+
+<circle cx="302"
+        cy="400"
+        r="6"
+        fill="#3fb950"
+        class="blink"/>
+
+<text x="318"
+      y="405"
+      class="small">
+  LEARN → BUILD → SHARE → GROW → REPEAT
+</text>
+
+</svg>
